@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "698160",
+      "name": "category- Selected",
+      "font_class": "categoryselected",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "9566836",
+      "name": "book-mark-line",
+      "font_class": "book-mark-line",
+      "unicode": "e8bb",
+      "unicode_decimal": 59579
+    },
+    {
+      "icon_id": "11982742",
+      "name": "Home, homepage, menu",
+      "font_class": "Homehomepagemenu",
+      "unicode": "e9db",
+      "unicode_decimal": 59867
+    },
+    {
+      "icon_id": "19104237",
+      "name": "account",
+      "font_class": "account",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
