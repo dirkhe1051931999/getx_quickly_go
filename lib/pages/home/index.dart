@@ -153,6 +153,15 @@ class HomeView extends StatelessWidget {
             subtitle: Text('Get.toNamed(${AppRoutes.TestGetXPlugins})'),
             onTap: () => Get.toNamed("${AppRoutes.TestGetXPlugins}"),
           ),
+          Divider(),
+          ListTile(
+            title: Text(
+                "${AppRoutes.Scroll_hide_appbar_with_horizontal_scrolling_navigation}"),
+            subtitle: Text(
+                'Get.toNamed(${AppRoutes.Scroll_hide_appbar_with_horizontal_scrolling_navigation})'),
+            onTap: () => Get.toNamed(
+                "${AppRoutes.Scroll_hide_appbar_with_horizontal_scrolling_navigation}"),
+          ),
         ],
       ),
     );

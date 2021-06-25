@@ -16,6 +16,7 @@ import 'package:getx_quick_go/pages/my/index.dart';
 import 'package:getx_quick_go/pages/nested_navigation/bindings.dart';
 import 'package:getx_quick_go/pages/nested_navigation/index.dart';
 import 'package:getx_quick_go/pages/notfound/index.dart';
+import 'package:getx_quick_go/pages/scroll_hide_appbar_with_horizontal_scrolling_navigation/index.dart';
 import 'package:getx_quick_go/pages/state_getBuilder/index.dart';
 import 'package:getx_quick_go/pages/state_getx/index.dart';
 import 'package:getx_quick_go/pages/state_obx/index.dart';
@@ -152,6 +153,12 @@ class AppPages {
       name: AppRoutes.TestGetXPlugins,
       binding: TestGetxPluginsBinding(),
       page: () => TestGetxPluginsPage(),
+    ),
+    // scroll_hide_appbar_with_horizontal_scrolling_navigation
+    GetPage(
+      name: AppRoutes.Scroll_hide_appbar_with_horizontal_scrolling_navigation,
+      binding: ScrollHideAppbarWithHorizontalScrollingNavigationBinding(),
+      page: () => ScrollHideAppbarWithHorizontalScrollingNavigationPage(),
     ),
   ];
 }

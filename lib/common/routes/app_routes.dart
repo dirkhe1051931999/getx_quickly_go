@@ -30,4 +30,7 @@ abstract class AppRoutes {
   static const Theme = '/Theme';
   // getx vscode插件生成的template
   static const TestGetXPlugins = '/TestGetXPlugins';
+  // scroll_hide_appbar_with_horizontal_scrolling_navigation
+  static const Scroll_hide_appbar_with_horizontal_scrolling_navigation =
+      '/scroll_hide_appbar_with_horizontal_scrolling_navigation';
 }
