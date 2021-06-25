@@ -13,7 +13,7 @@ get: ^4.1.4
 dio: ^4.0.0
 ```
 
-## 功能
+## 基础功能
 
 粗体字是 getx 的核心功能
 
@@ -32,3 +32,11 @@ dio: ^4.0.0
 - [x] 国际化，主题，quick create getx directory
 - [x] footnavbar 功能,静态文件,icon,font
 - [x] 项目结构与目录
+
+## 进阶 demo
+
+- [x] 上下滚动时隐藏 appbar，固定头部导航栏，导航栏不是 tab，而是 singlescrollview，可左右滚动，同时联动 pageview，左右滑动，或者点导航，都可以切换页面，可监听 pageview，pageview 的 page 可自定义，也可以下拉刷新，上拉加载，也可以单纯上下滚动
+
+dir:`/lib/scroll_hide_appbar_with_horizontal_scrolling_navigation.dart`
+
+[![R1fwx1.gif](https://z3.ax1x.com/2021/06/25/R1fwx1.gif)](https://imgtu.com/i/R1fwx1)
