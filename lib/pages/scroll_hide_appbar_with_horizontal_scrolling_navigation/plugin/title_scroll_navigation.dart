@@ -162,11 +162,16 @@ class _TitleScrollNavigationState extends State<TitleScrollNavigation> {
   //---------//
   void _setTitlesWidth() {
     setState(() {
+      double position = 0;
       for (int i = 0; i < _titlesProps.length; i++)
         _titlesProps[i].width = _titlesProps[i].key.width ?? 0;
-
+      for (var i = 0; i < widget.initialPage; i++) {
+        position += _getTitleWidth(i);
+      }
       _identifier.width = _getTitleWidth(widget.initialPage);
-      _identifier.position = _paddingLeft;
+      _identifier.position = widget.barStyle.spaceBetween +
+          position +
+          _paddingLeft * widget.initialPage;
 
       _halfWidth = context.media.width / 2;
       _maxScroll = _titlesController.position.maxScrollExtent;

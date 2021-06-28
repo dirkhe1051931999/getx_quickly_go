@@ -33,4 +33,6 @@ abstract class AppRoutes {
   // scroll_hide_appbar_with_horizontal_scrolling_navigation
   static const Scroll_hide_appbar_with_horizontal_scrolling_navigation =
       '/scroll_hide_appbar_with_horizontal_scrolling_navigation';
+  // 垂直滚动的跑马灯
+  static const VerticalScrollText = '/VerticalScrollText';
 }

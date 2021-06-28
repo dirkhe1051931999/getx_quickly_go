@@ -25,6 +25,7 @@ import 'package:getx_quick_go/pages/state_workers/index.dart';
 import 'package:getx_quick_go/pages/test_getx_plugins/bindings.dart';
 import 'package:getx_quick_go/pages/test_getx_plugins/view.dart';
 import 'package:getx_quick_go/pages/theme/index.dart';
+import 'package:getx_quick_go/pages/vertical_scroll_text/index.dart';
 import 'package:getx_quick_go/pages/welcome/bindings.dart';
 import 'package:getx_quick_go/pages/welcome/view.dart';
 
@@ -159,6 +160,12 @@ class AppPages {
       name: AppRoutes.Scroll_hide_appbar_with_horizontal_scrolling_navigation,
       binding: ScrollHideAppbarWithHorizontalScrollingNavigationBinding(),
       page: () => ScrollHideAppbarWithHorizontalScrollingNavigationPage(),
+    ),
+    // 垂直滚动的跑马灯
+    GetPage(
+      name: AppRoutes.VerticalScrollText,
+      binding: VerticalScrollTextBinding(),
+      page: () => VerticalScrollTextPage(),
     ),
   ];
 }
