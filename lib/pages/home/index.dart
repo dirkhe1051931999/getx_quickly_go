@@ -162,6 +162,12 @@ class HomeView extends StatelessWidget {
             onTap: () => Get.toNamed(
                 "${AppRoutes.Scroll_hide_appbar_with_horizontal_scrolling_navigation}"),
           ),
+          Divider(),
+          ListTile(
+            title: Text("${AppRoutes.VerticalScrollText}"),
+            subtitle: Text('Get.toNamed(${AppRoutes.VerticalScrollText})'),
+            onTap: () => Get.toNamed("${AppRoutes.VerticalScrollText}"),
+          ),
         ],
       ),
     );
